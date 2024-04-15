@@ -1,5 +1,6 @@
 import { useState } from "react";
 import data from "../data";
+import { nanoid } from "nanoid";
 import Title from "./Title";
 
 const LoremText = () => {
@@ -32,10 +33,10 @@ const LoremText = () => {
         </button>
       </form>
       <article className="lorem-container">
-        {paragraph.map((paragraph, index) => {
+        {paragraph.map((paragraph) => {
           //   console.log(paragraph);
 
-          return <p key={index}>{paragraph}</p>;
+          return <p key={nanoid()}>{paragraph}</p>;
         })}
       </article>
     </main>
