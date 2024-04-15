@@ -5,7 +5,9 @@ import Title from "./Title";
 
 const LoremText = () => {
   const [countNum, setCountNum] = useState(1);
-  const [paragraph, setParagraph] = useState([]);
+  const [paragraph, setParagraph] = useState([
+    "LUKE: Hurry up! Come with me! What are you waiting for?! Get in gear! The robot scoots around in a tight circle, stops short, and smoke begins to pour out of every joint. Luke throws his arms up in disgust. Exasperated, the young farm boy jumps into his Landspeeder leavingthesmoldering robot to hum madly.",
+  ]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
