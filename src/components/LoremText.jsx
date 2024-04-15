@@ -1,8 +1,10 @@
 import { useState } from "react";
+import data from "../data";
 import Title from "./Title";
 
 const LoremText = () => {
   const [countNum, setCountNum] = useState(1);
+  const [paragraph, setParagraph] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
