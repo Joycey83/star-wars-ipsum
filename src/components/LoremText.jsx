@@ -27,9 +27,11 @@ const LoremText = () => {
           max="8"
           onChange={(e) => setCountNum(e.target.value)}
         />
-        <button type="submit">Generate</button>
+        <button type="submit" className="submit-btn">
+          Generate
+        </button>
       </form>
-      <article>
+      <article className="lorem-container">
         {paragraph.map((paragraph, index) => {
           //   console.log(paragraph);
 

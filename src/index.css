@@ -13,3 +13,15 @@ body {
   margin-top: 1.2rem;
   text-transform: uppercase;
 }
+
+.lorem-container {
+  max-width: 1170px;
+  margin: 2rem auto;
+  padding: 3rem;
+  background: rgba(0, 0, 0, 0.188);
+}
+
+.lorem-container p {
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
