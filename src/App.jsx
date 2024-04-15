@@ -1,4 +1,3 @@
-import "./App.css";
 import LoremText from "./components/LoremText";
 
 function App() {

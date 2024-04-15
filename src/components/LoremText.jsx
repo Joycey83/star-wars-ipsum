@@ -1,4 +1,10 @@
+import Title from "./Title";
+
 const LoremText = () => {
-  return <h1>Star Wars Lorem Ispsum</h1>;
+  return (
+    <main>
+      <Title />
+    </main>
+  );
 };
 export default LoremText;

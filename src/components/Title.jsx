@@ -1,4 +1,4 @@
 const Title = () => {
-  return <div>Title</div>;
+  return <h1 className="main-title">Star Wars Lorem Ispsum</h1>;
 };
 export default Title;
