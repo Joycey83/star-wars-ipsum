@@ -8,6 +8,8 @@ const LoremText = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    let paragraphAmount = parseInt(countNum);
+    setParagraph(data.slice(0, paragraphAmount));
   };
   return (
     <main>
