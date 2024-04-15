@@ -31,7 +31,7 @@ const LoremText = () => {
       </form>
       <article>
         {paragraph.map((paragraph, index) => {
-          console.log(paragraph);
+          //   console.log(paragraph);
 
           return <p key={index}>{paragraph}</p>;
         })}
