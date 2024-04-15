@@ -1,9 +1,10 @@
 import "./App.css";
+import LoremText from "./components/LoremText";
 
 function App() {
   return (
     <>
-      <h1>Star Wars Lorem Ipsum</h1>
+      <LoremText />
     </>
   );
 }
