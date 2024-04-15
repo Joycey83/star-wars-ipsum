@@ -27,6 +27,13 @@ const LoremText = () => {
         />
         <button type="submit">Generate</button>
       </form>
+      <article>
+        {paragraph.map((paragraph, index) => {
+          console.log(paragraph);
+
+          return <p key={index}>{paragraph}</p>;
+        })}
+      </article>
     </main>
   );
 };
