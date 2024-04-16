@@ -4,7 +4,6 @@ body {
   box-sizing: border-box;
   height: 100%;
   min-height: 100vh;
-  /* max-height: 100vh; */
   background: linear-gradient(#000000a2, #05000856),
     url(./images/star-wars-lorem-bg.webp) center/cover no-repeat;
   background-attachment: fixed;
@@ -23,7 +22,8 @@ body {
   max-width: 1170px;
   margin: 2rem auto;
   padding: 3rem;
-  background: rgba(0, 0, 0, 0.346);
+  background: rgba(140, 130, 130, 0.188);
+  border-radius: 0.35rem;
 }
 
 .lorem-container p {
