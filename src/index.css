@@ -2,7 +2,12 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: antiquewhite;
+  height: 100%;
+  min-height: 100vh;
+  /* max-height: 100vh; */
+  background: linear-gradient(#000000a2, #05000856),
+    url(./images/star-wars-lorem-bg.webp) center/cover no-repeat;
+  background-attachment: fixed;
 }
 
 .main-title {
@@ -18,12 +23,13 @@ body {
   max-width: 1170px;
   margin: 2rem auto;
   padding: 3rem;
-  background: rgba(0, 0, 0, 0.188);
+  background: rgba(0, 0, 0, 0.346);
 }
 
 .lorem-container p {
   font-size: 1.25rem;
   line-height: 1.25;
+  color: aliceblue;
 }
 
 .lorem-form {
@@ -35,6 +41,7 @@ body {
 
 .lorem-form label {
   font-size: 1.3rem;
+  color: aliceblue;
 }
 
 .lorem-form input {
