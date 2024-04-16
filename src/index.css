@@ -25,3 +25,9 @@ body {
   font-size: 1.25rem;
   line-height: 1.25;
 }
+
+.lorem-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

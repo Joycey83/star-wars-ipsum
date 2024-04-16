@@ -18,7 +18,7 @@ const LoremText = () => {
     <main>
       <Title />
 
-      <form onSubmit={handleSubmit}>
+      <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">Paragraphs:</label>
         <input
           type="number"
