@@ -9,13 +9,14 @@ body {
   background-attachment: fixed;
 }
 
-.main-title {
-  font-size: 3rem;
-  color: blue;
-  text-align: center;
-  line-height: 1.3;
-  margin-top: 1.2rem;
-  text-transform: uppercase;
+.title-img-container {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0;
+}
+.logo {
+  display: block;
+  width: 30rem;
 }
 
 .lorem-container {
@@ -56,7 +57,7 @@ body {
 
 .submit-btn {
   display: inline-block;
-  background: rgb(82, 82, 168);
+  background: #fcdf2b;
   border-color: transparent;
   padding: 0.5rem 0.35rem;
   border-radius: 0.25rem;
@@ -64,4 +65,8 @@ body {
   text-transform: capitalize;
   font-size: 1.3rem;
   margin-left: 1.2rem;
+}
+
+.submit-btn:hover {
+  background: #e3c927;
 }
