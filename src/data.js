@@ -9,7 +9,8 @@ eye and he instinctively grabs a pair of electrobinoculars from his utility belt
   `A Star Destroyer moves through space, releasing Imperial probe robots from its underside One of these probes zooms toward the planet Hoth and lands on its ice- covered surface. An explosion marks the point of impact. A weird mechanical sound rises above the whining of the 
   wind. A strange probe robot, with several extended sensors,emerges from the smoke-shrouded crater. The ominous mechanical probe floats across the snow plain and disappears into the distance. A small figure gallops across the windswept ice slope. The bundled rider is mounted on a large gray snow lizard, a Tauntaun. Curving plumes of snow rise from beneath the speeding paws of the two-legged beast.`,
   `HAN:Well, the bounty hunter we ran into on Ord Mantell changed my mind.LEIA:Han, we need you! DECK OFFICER:Sir, Commander Skywalker hasn't come in through the south entrance. Hemight have forgotten to check in. HAN:It isn't friendly, whatever it is.Come on, Chewie, let's check it out`,
-  `EXT. SPACE - IMPERIAL STAR DESTROYER 41 A huge Imperial Star Destroyer rest against a sea of stars,far above the white surface of the planet Hoth.42 INT. IMPERIAL STAR DESTROYER - BRIDGE 42 An Imperial controller approaches his commander.CONTROLLER Sir, Rebel ships are coming intour sector.CAPTAIN Good. Our first catch of the day`,
+  `EXT. SPACE - IMPERIAL STAR DESTROYER 41 A huge Imperial Star Destroyer rest against a sea of stars,far above the white surface of the planet Hoth.42 INT. IMPERIAL STAR DESTROYER - BRIDGE 42 An Imperial controller approaches his commander.
+  CONTROLLER Sir, Rebel ships are coming intour sector.CAPTAIN Good. Our first catch of the day`,
 ];
 
 export default script;
