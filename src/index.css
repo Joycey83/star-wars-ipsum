@@ -104,3 +104,55 @@ input:focus {
 .submit-btn:hover {
   background: #e3c927;
 }
+
+@media screen and (max-width: 1200px) {
+  .lorem-container {
+    margin: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    display: block;
+    width: 16rem;
+  }
+
+  .main-title {
+    font-size: 1rem;
+  }
+
+  .lorem-form {
+    gap: 0.3rem;
+  }
+
+  .lorem-form input {
+    width: 3rem;
+    height: 1.2rem;
+    padding: 0.35rem 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .lorem-form label {
+    font-size: 1rem;
+  }
+
+  .lorem-container p {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+
+  .submit-btn {
+    display: inline-block;
+    background: #fcdf2b;
+    border-color: var(--border-color);
+    padding: 0.3rem 0.25rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  .lorem-container {
+    margin: 1.2rem;
+  }
+}
